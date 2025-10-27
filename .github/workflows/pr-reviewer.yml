@@ -4,6 +4,12 @@ on:
   pull_request:
     types: [opened, synchronize, reopened]
 
+
+permissions:
+  pull-requests: write  # Required to post review comments
+  contents: read        # Required to read PR files
+
+
 jobs:
   review:
     runs-on: ubuntu-latest

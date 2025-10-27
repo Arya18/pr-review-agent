@@ -9,7 +9,7 @@ REVIEW_CONFIG = {
         "*.md",           # Skip markdown files
         "*.json",         # Skip JSON files
         "package-lock.json",
-        ".yml",
+        "*.yml",
         "yarn.lock",
         "*.min.js",       # Skip minified files
         "*.test.js",      # Skip test files (optional)

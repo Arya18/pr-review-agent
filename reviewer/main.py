@@ -3,10 +3,6 @@ import requests
 import openai
 import json
 import re
-from dotenv import load_dotenv
-
-# Load environment variables from .env file
-load_dotenv()
 
 # Try to import config, fallback to default if not found
 try:
